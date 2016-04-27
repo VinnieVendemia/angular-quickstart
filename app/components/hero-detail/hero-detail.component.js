@@ -49,7 +49,7 @@ System.register(['angular2/core', '../../shared/hero/hero', '../../shared/hero-s
                     core_1.Component({
                         selector: 'my-hero-detail',
                         templateUrl: 'app/components/hero-detail/hero-detail.component.html',
-                        styleUrls: ['app/components/hero-detail/app/hero-detail.component.css']
+                        styleUrls: ['app/components/hero-detail/hero-detail.component.css']
                     }), 
                     __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.RouteParams])
                 ], HeroDetailComponent);
