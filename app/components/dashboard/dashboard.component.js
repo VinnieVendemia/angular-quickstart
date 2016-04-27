@@ -1,4 +1,4 @@
-System.register(['angular2/core', './shared/hero-service/hero.service', 'angular2/router'], function(exports_1, context_1) {
+System.register(['angular2/core', '../../shared/hero-service/hero.service', 'angular2/router'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -42,13 +42,12 @@ System.register(['angular2/core', './shared/hero-service/hero.service', 'angular
                 DashboardComponent = __decorate([
                     core_1.Component({
                         selector: 'my-dashboard',
-                        templateUrl: 'app/dashboard.component.html',
-                        styleUrls: ['app/dashboard.component.css']
+                        templateUrl: 'app/components/dashboard/dashboard.component.html',
+                        styleUrls: ['app/components/dashboard/dashboard.component.css']
                     }), 
-                    __metadata('design:paramtypes', [(typeof (_a = typeof hero_service_1.HeroService !== 'undefined' && hero_service_1.HeroService) === 'function' && _a) || Object, router_1.Router])
+                    __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
                 ], DashboardComponent);
                 return DashboardComponent;
-                var _a;
             }());
             exports_1("DashboardComponent", DashboardComponent);
         }
